@@ -1,5 +1,5 @@
 print ('-TABUADA-')
-t = int(input('Digite um número para ver a Tabuado:'))
+t = int(input('Digite um número para ver a Tabuada:'))
 
 print('_' *18)
 
