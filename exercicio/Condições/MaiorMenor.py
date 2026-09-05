@@ -16,4 +16,4 @@ if b < a and b < c:
     menor = b
 if c < a and c < b:
     menor = c
-print("Maior número: {} | Menor número {}". format(maior, menor))
+print("Maior número: \033[34m{}\033[m | Menor número \033[36m{}". format(maior, menor))

@@ -6,6 +6,6 @@ b = float(input("Segunda Reta: "))
 c = float(input("Terceira Reta: "))
 
 if (a + b) > c and (b + c) > a and (c + a) > b:
-    print("É possivel SIM fazer um triângulo!")
+    print("\033[1;33;40mÉ possivel SIM fazer um triângulo!\033[m")
 else:
-    print("NÃO é possivel formar um triângulo!")
+    print("\033[1;45mNÃO é possivel formar um triângulo!\033[m")

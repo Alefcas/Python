@@ -4,5 +4,5 @@
 
 nome = str(input("Escreva seu nome completo: ")).strip()
 n = nome. split()
-print("Seu primeiro nome é {}".format(n[0]))
-print("Seu ultimo nome é {}".format(n[len(n)-1]))
+print("\033[1;35mSeu primeiro nome é \033[4m{}\033[m".format(n[0]))
+print("\033[1;32mSeu último nome é \033[4m{}\033[m".format(n[len(n)-1]))

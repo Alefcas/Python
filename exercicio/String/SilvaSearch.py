@@ -2,5 +2,5 @@
 # Alef Castro
 # 25/06/2026
 
-nome = str(input("Qual o seu nome Completo: ")).strip()
+nome = str(input("\033[30;33mQual o seu nome Completo: \033[m")).strip()
 print("Seu nome tem SILVA? {}".format('Silva' in nome.lower()))
