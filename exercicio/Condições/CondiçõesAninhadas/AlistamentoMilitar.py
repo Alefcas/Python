@@ -3,6 +3,9 @@
 #Alef Castro
 #11/09/2026
 from datetime import date
+print("="*20)
+print("ALISTAMENTO MILITAR")
+print("="*20)
 atual = date.today().year
 ano = int(input("Ano de Nascimento: "))
 idade = atual - ano
