@@ -3,7 +3,7 @@
 #Alef Castro
 #11/09/2026
 print("="*20)
-print("AVALIANDO ALUNO")
+print("\033[34mAVALIANDO ALUNO\033[m") #Adicionando cor
 print("="*20)
 
 n1 = float(input("Primeira nota: "))
