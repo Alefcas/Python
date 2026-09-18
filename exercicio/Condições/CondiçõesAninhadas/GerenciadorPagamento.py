@@ -3,6 +3,10 @@
 #2x no cartão: preço formal | 3x ou mais no cartão:20% de juros
 #Alef Castro
 #18/09/2026
+print("\033[34m=\033[m"*20)
+print("-COMPRE SEU PRODUTO-")
+print("\033[34m=\033[m"*20)
+
 preco = float(input("Preço das compras: R$"))
 print("FORMAS DE PAGAMENTO")
 print("[1] á vista dinheiro/cheque\n"
@@ -27,5 +31,5 @@ elif opc == 4:
     print("Sua compra será parcelada em {}x de R${:.2f} COM JUROS".format(totalparc,parcela))
 else:
     total = preco
-    print("Opção Invalida de pagamento. Tente Novamente")
+    print("\033[31m=== Opção Invalida de pagamento. Tente Novamente ===\033[m")
 print("Sua compra de R${:.2f} vai custar R${:.2f}".format(preco, total))
