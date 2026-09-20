@@ -1,4 +1,4 @@
-#Programa que mostre na tela todos os númeos pares entre 1 e 50
+#Programa que mostre na tela todos os números pares entre 1 e 50
 #Alef Castro
 #20/09/2026
 print("Contagem de todos os pares entre 1 e 50.")
